@@ -1,0 +1,245 @@
+What's App 9542994289
+From Srikanth Rallabandi to Everyone:  08:29 AM
+Concepts to be covered in training:
+- Introduction of Angular11 		
+- Environment Setup		
+- Creating First Angular Appliation	
+- Folder Structure			
+- Javascript  Sessions	- 4Hrs
+- Typescript Sessions	- 5Hrs
+- Angular Building Blocks
+	- Modules
+	- Decorators
+	- Components
+	- Bootstrap Integration
+	- Nesting Components
+	- Nested Module
+	- Data Binding
+	- Directives and Custom Directives
+	- Pipes and Custom Pipes
+	- Sharing the data between the components
+	- Services and Parallel and Series execution
+		- Depedency Injuction
+	- Ajax calls with live data
+	- Angualr Forms
+		- Template Driven
+		- Model/Reactive Forms
+		- Validations	
+	- SPA Implementation		
+		- Routing 
+		    - Routing
+		    - Route Guards
+		    - Route Parameters
+		    - Child Routing
+		    - Eager Loading and Lazy Loading  
+	- AJAX implmentation with RxJS librabry for CRUD operations(Obervables,Subscribe)	
+	- Angular Meterial UI
+	- Unit Testing by using Karma, Jasmin and Protractor	
+	- Angular Life Cycle Hooks
+- Realtime Project on Angular
+Version History
+
+
+Concepts to be covered in training:
+- Introduction of Angular11 		
+- Environment Setup		
+- Creating First Angular Appliation	
+- Folder Structure			
+- Javascript  Sessions	- 4Hrs
+- Typescript Sessions	- 5Hrs
+- Angular Building Blocks
+	- Modules
+	- Decorators
+	- Components
+	- Bootstrap Integration
+	- Nesting Components
+	- Nested Module
+	- Data Binding
+	- Directives and Custom Directives
+	- Pipes and Custom Pipes
+	- Sharing the data between the components
+	- Services and Parallel and Series execution
+		- Depedency Injuction
+	- Ajax calls with live data RxJS library
+	- Angualr Forms
+		- Template Driven
+		- Model/Reactive Forms
+		- Validations	
+
+- SPA Implementation		
+		- Routing 
+		    - Routing
+		    - Route Guards(Security)
+		    - Route Parameters
+		    - Child Routing
+		    - Eager Loading and Lazy Loading  
+	- AJAX implmentation with RxJS librabry for CRUD operations(Obervables,Subscribe)	
+	- Angular Meterial UI
+	- Unit Testing by using Karma, Jasmin and Protractor	
+	- Angular Life Cycle Hooks
+- Realtime Project on Angular by having all concepts of Angular. 
+- Version History of Angular, Angular JS and React JS and it's enhancements.
+================================
+--------https://developer.mozilla.org/en-US/docs/Web/JavaScript
+--------https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+--------https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+--------https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+--------https://www.javascripttutorial.net/javascript-dom/javascript-toggle-password-visibility/
+================================================================================================================
+https://github.com/codewithsrikanth/March-Angular-7-30AM.git
+https://github.com/codewithsrikanth/March-Angular-7-30AM.git
+======================================================================
+cart app example
+angular with c# mvc, convert c# mvc to c# mvc core
+chrome debugger
+to update angular version in existing project
+data sharing in component with statemanagement
+ngTable
+routing with multiple parameter
+web server & domain configuration for angular
+
+2 way chatting module->kapka or rabit for chatting(kapka )
+
+custom directive + pipe(done)->   custom structural directive for alert -(remaining)
+
+date picker date-range enable date for current year else disable
+moment 
+node js routing
+rdlc in node js
+
+------------ observable collection crud---------------
+rxjs variable crud using next 
+(
+private ds = new BehaviorSubject<IItem[]>(new Array<IItem>());
+public readonly data = this.ds.asObservable();
+)
+
+...x = ...y
+--------------------------
+NgForm
+@Inject
+FormBuilder
+SSO(SingleSignOn)
+--------------
+https://www.npmjs.com/package/json-server
+
+
+Object.Assign
+using Angular + c#, is it possible to show live video in application like facebook live?
+
+
+codewithsrikanth@gmail.com
+9399932996
+https://github.com/codewithsrikanth/March-Angular-7-30AM.git
+
+https://docs.emmet.io/cheat-sheet/
+
+
+ECMA script-w3c mainaining
+
+drag & drop html input control
+=========================================
+121@in.airtel.com
+
+========================================================================================
+--https://www.typescriptlang.org/docs/handbook/2/generics.html#hello-world-of-generics
+
+
+
+https://angular.io/api/router/Router#navigatebyurl
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+
+
+function identity<Type>(arg: Type): Type {
+  return arg;
+}
+function loggingIdentity<Type>(arg: Type[]): Type[] {
+  console.log(arg.length);
+  return arg;
+}function identity<Type>(arg: Type): Type {
+  return arg;
+}
+
+let myIdentity: <Type>(arg: Type) => Type = identity;function identity<Type>(arg: Type): Type {
+  return arg;
+}
+
+let myIdentity: <Input>(arg: Input) => Input = identity;function identity<Type>(arg: Type): Type {
+  return arg;
+}
+
+let myIdentity: { <Type>(arg: Type): Type } = identity;
+<---------------------------------------------------------------------------->
+whole web page is defiened in a document known as dom
+<---------------------------------------------------------------------------->
+
+https://github.com/codewithsrikanth/March-Angular-7-30AM.git
+
+1. On Mouseout of Marquee, the images should start from the Beginning.
+2. Display list of images by using Bootstrap thumbnail class and once if user mouse over then display that image in the div with bigger size
+https://www.w3schools.com/jsref/event_clientx.asp
+1. Find the coordinate values of the browser when user click on it.
+2. Move the image to that coordinate values
+------------
+------------------------------AppModule-----------------------
+entryComponents:[CartButtonComponent, CartComponent,AddressComponent,CheckoutProductsComponent,CheckoutButtonComponent],
+  bootstrap: [AppComponent]
+})
+export class AppModule { 
+  constructor(private injector: Injector) {
+    
+    const cartButtonComponent = createCustomElement(CartButtonComponent, { injector: this.injector });
+    customElements.define('app-cart-button-qty', cartButtonComponent);
+
+    const cartComponent = createCustomElement(CartComponent, { injector: this.injector });
+    customElements.define('app-cart', cartComponent);
+
+    // const addressComponent = createCustomElement(AddressComponent, { injector: this.injector });
+    // customElements.define('app-address', addressComponent);
+
+    const reviewOrderComponent = createCustomElement(CheckoutProductsComponent, { injector: this.injector });
+    customElements.define('app-checkout-products', reviewOrderComponent);
+
+    const addressWrapperComponent = createCustomElement(AddressComponent, { injector: this.injector });
+    customElements.define('app-address', addressWrapperComponent);
+
+    const checkoutButtonComponent = createCustomElement(CheckoutButtonComponent, { injector: this.injector });
+    customElements.define('app-checkout-button', checkoutButtonComponent);
+  }  
+}
+
+@ViewChild('quantity',{ static: false }) input: ElementRef; 
+
+--------------------------------------------------------------
+https://stackblitz.com/edit/angular-2sjedh?file=src%2Fapp%2Fapp.component.html
+
+
+
+https://stackoverflow.com/questions/47133024/angular-2-dynamic-template-url-with-string-variable
+	1.--->How to specify dinemic template url in angular either any setting are there then do not validate template url 
+	
+	Ass(2).--->["Krishna", "Ram", "Shyam"]->
+	
+	
+	
+--> npm install -g json-server
+--> json-server --watch db.json
+
+9885753773 srisylam
+
+
+
+https://codeburst.io/jwt-auth-in-asp-net-core-148fb72bed03
+ 
+https://angular.io/guide/lifecycle-hooks
+From Srikanth Rallabandi to Everyone:  08:17 AM
+Enable-Migrations: Enables Code First Migrations in a project.
+Add-Migration: Scaffolds a migration script for any pending model changes.
+Update-Database: Applies any pending migrations to the database.
+
+https://www.youtube.com/watch?v=YzysQ8bd4ig&t=3570s
